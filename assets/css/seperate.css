@@ -2,3 +2,29 @@
     font-size: 20px;
 }
 
+#header {
+   background-color: #00004d;
+}
+
+header.major h2 {
+    color: #00004d;
+    font-size: 3.5em;
+}
+
+#header nav ul li {
+    border-top: solid 2px #00004d;
+    border-left: #00004d;
+    display: block;
+    padding: 0;
+}
+
+#header nav ul li a.active {
+    background: #fff;
+    color: #00004d !important;
+
+a {
+    color: inherit;
+}
+
+
+

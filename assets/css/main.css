@@ -1572,9 +1572,9 @@
 		text-decoration: none;
 	}
 
-		a:hover {
+    a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #00004d;
 		}
 
 	strong, b {
@@ -2092,7 +2092,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #00004d;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2121,7 +2121,8 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 1.25em;
+					font-size: 1.50em;
+                    color: white;
 				}
 
 		ul.actions {
@@ -2468,7 +2469,7 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: white;
 		}
 
 		#header a {
@@ -2495,7 +2496,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: white;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2513,7 +2514,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: white;
 				}
 
 		#header > nav ul {
@@ -2573,7 +2574,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/skyline.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
